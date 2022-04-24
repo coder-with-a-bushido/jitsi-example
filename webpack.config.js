@@ -34,5 +34,6 @@ module.exports = {
       directory: path.join(__dirname, "public"),
     },
     port: process.env.PORT ?? 5001,
+    allowedHosts: "all",
   },
 };
