@@ -33,6 +33,6 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "public"),
     },
-    port: 5001,
+    port: process.env.PORT ?? 5001,
   },
 };
