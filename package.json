@@ -4,14 +4,13 @@
     "description": "Usage example for the JitsiMeeting component",
     "main": "index.js",
     "scripts": {
-        "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --history-api-fallback --progress"
+        "start": "npm i && webpack-dev-server --history-api-fallback --progress"
     },
     "keywords": [],
     "author": "",
     "license": "Apache-2.0",
     "dependencies": {
-        "@jitsi/react-sdk": "^1.0.1",
-        "webpack-dev-server": "^4.4.0"
+        "@jitsi/react-sdk": "^1.0.1"
     },
     "peerDependencies": {
         "react": "^17.0.2",
